@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>App Gasolina</title>
+</head>
+<body>
+
+    <div class="central">
+
+        <h1>Calculadora de Gasolina</h1>
+
+        
+        <p>Distancia da Viagem (Km)</p>
+        <input type="number" id="distancia">
+
+        <p>Rendimento do Carro (Km/L)</p>
+        <input type="number" id="rendimento">
+
+        <p>Preço da Gasolina (L)</p>
+        <input type="number" id="preco">
+
+        <button id="calcular">Calcular</button>
+
+        <div class="modal">
+            <div class="content">
+            <p>Valor gasto na Viagem (R$)</p>
+            <input type="text" disabled id="resultado">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/js/dados.js"></script>
+</body>
+</html>
